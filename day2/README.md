@@ -3,9 +3,9 @@ Day 02
 Installing Kali Linux in Oracle VirtualBox:
 
 There are mainly 3 things Required to install Kali linux on a Windows Host Machine.
-1.⁠ ⁠Downloading Kali linux VirtualBox Image.(https://cdimage.kali.org/kali-2025.2/kali-linux-2025.2-virtualbox-amd64.7z)
-2.⁠ ⁠Downloading 'Oracle VirtualBox'. It is a general-purpose full virtualization software.(https://download.virtualbox.org/virtualbox/7.1.12/VirtualBox-7.1.12-169651-Win.exe)
-3.⁠ ⁠Downloading '7Zip'. It is a free and open-source file archiver with a high compression ratio. We are gonna use this for extracting the downloaded zip file.(https://www.7-zip.org/a/7z2500-x64.exe)
+1.⁠ ⁠Downloading Kali linux VirtualBox Image.
+2.⁠ ⁠Downloading 'Oracle VirtualBox'. It is a general-purpose full virtualization software.
+3.⁠ ⁠Downloading '7Zip'. It is a free and open-source file archiver with a high compression ratio. We are gonna use this for extracting the downloaded zip file.
 
 Note: Make sure you Have minimum 10-15 Gbs of Space in your Storage.
 
@@ -23,7 +23,7 @@ Installing Oracle VirtualBox on Windows host Machine.
 TrobbleShooting Problems Occured during and after The installation of Oracle VirtualBox:
 Problem 1
 Missing 'Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211'
-1.⁠ ⁠Click on the link to Download The dependency. https://aka.ms/vs/17/release/vc_redist.x64.exe and Install it.
+1.⁠ ⁠Click on the link to Download The dependency. 
 2.⁠ ⁠Relauch the Oracle VirtualBox installer and Follow step 1.
 
  Problem 2
@@ -51,7 +51,7 @@ Extracting the Downloaded Kali Linux VirtualBox Image Zip File.
 
 Step 4:
 Loading the Kali Linux VirtualBox image File.
-1.It is Recommended to Make a Seperate pertetion in your Disk drive for Keeping Kali linux.(10-15 Gbs will be fine)(https://www.youtube.com/watch?v=HGqo17dGk0E)
+1.It is Recommended to Make a Seperate pertetion in your Disk drive for Keeping Kali linux.(10-15 Gbs will be fine)
 2.Copy the Extracted Kali Linux VirtualBox image File to the new partetion.
 3.Open the folder and you will find 2 files types, 1.VirtualBox Machine Defination and 2.Virtual Disk Image File.You have to double click on 'VirtualBox Machine Defination' Type file.
 4.⁠ ⁠Oracle VirtualBox opens, Click on 'Start' to Turn on the Virtual Machine. Its going to take a when u are booting it for the First time.
